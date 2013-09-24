@@ -8,7 +8,7 @@
 # require netaddr module (https://github.com/drkjam/netaddr)
 # input: ip with mask txt file (ip_system_big_with_mask.txt)
 # output: txt file (jh_crs_route_show_nouse.txt,jh_crs_route_show_use.txt )
-# get crs detail route and list the route of no user( show route long X.X.X.X/X)  CN_CRS:61.130.158.8 
+# get crs detail route and list the route of no user( show route long X.X.X.X/X)  
 #=========================================================
 import re, xlrd, netaddr, csv
 import sys, getopt
